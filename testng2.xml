@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<!--  <listener class name="com.webdriver.tests.Listeners"/>-->
+</listeners>
+  <test  name="Selenium">
+    <classes>
+      <class name="com.webdriver.tests.SeleniumTest"/>
+      </classes>
+      </test>
+      <test name="RestAPI">
+      <classes>
+      <class name="com.webdriver.tests.RestApi"/>
+    </classes>
+  </test>
+  <test name="Appium">
+      <classes>
+      <class name="com.webdriver.tests.AppiumTest"/>
+    </classes>
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite regression-->
